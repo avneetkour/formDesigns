@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Design</title>
+   
+    <link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <style>
+      
+        .container {
+            background-color: #e5e5e2;
+            margin: 100px 80px;
+            padding: 0px;
+        }
+
+        .welcome,
+        .account {
+            position: relative;
+            display: inline-block;
+
+        }
+
+        .welcome {
+            background-color: rgb(114, 219, 219);
+            width: 30%;
+            padding: 30px;
+            text-align: center;
+            font-size: 15px;
+            border-radius: 5px;
+
+        }
+
+        .content {
+            font-size: 18px;
+
+        }
+
+        .account {
+            vertical-align: top;
+             }
+
+        button {
+            background-color: #e5e5e2;
+            padding: 18px 30px;
+            font-size: 15px;
+            border-radius: 25px;
+            margin-top: 50px;
+        }
+
+        input[type=text] {
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="welcome">
+            <div style="font-size:50px; padding: 50px; font-family: 'Odibee Sans',cursive; ">
+                Welcome !!
+            </div>
+            <div class="welcome-content" style="padding: 20px;">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse impedit ut ducimus consectetur hic sit
+                    quia magni recusandae saepe maiores, dolore, suscipit iusto itaque nulla veritatis ipsum quae qui
+                    quam?</p>
+                <button class="button1">Login</button>
+            </div>
+
+        </div>
+        <div class="account" style="padding: 50px 0px 0 250px; border-radius: 5px;">
+            <!-- <div class="top" style="padding: 30px; ">
+                <h1>Lorem, ipsum.</h1>
+                <button style="position: absolute; right: 20px;">Submit</button>
+            </div> -->
+            <div class="content">
+                <h2 style="font-family: 'Odibee Sans',cursive; text-align:center; font-size:50px"> Create Account</h2>
+                <label for="name">Enter Your Name:</label>
+                <input type="text"><br>
+                <label for="contact">Enetr your contat:</label>
+                <input type="text"><br>
+                <button class="button2" style="position: absolute;
+                right: 50px; background-color: rgb(114, 219, 219);">submit</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
